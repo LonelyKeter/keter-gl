@@ -10,7 +10,7 @@ pub struct RGBA {
 }
 
 impl RGBA {
-    fn new(red: GLfloat, green: GLfloat, blue: GLfloat, alpha: GLfloat) -> Self {
+    pub fn new(red: GLfloat, green: GLfloat, blue: GLfloat, alpha: GLfloat) -> Self {
         Self {
             red: red,
             green: green,
@@ -42,7 +42,7 @@ pub struct RGB {
 }
 
 impl RGB {
-    fn new(red: GLfloat, green: GLfloat, blue: GLfloat, alpha: GLfloat) -> Self {
+    fn new(red: GLfloat, green: GLfloat, blue: GLfloat) -> Self {
         Self {
             red: red,
             green: green,

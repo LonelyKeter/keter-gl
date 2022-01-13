@@ -2,9 +2,10 @@
 name = "keter-gl"
 version = "0.1.0"
 authors = ["LonelyKeter <48608259+LonelyKeter@users.noreply.github.com>"]
-edition = "2018"
+edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 gl = "0.14.0"
+enum-repr = "0.2.6"
